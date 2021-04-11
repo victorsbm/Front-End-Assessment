@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- Bok-Man Victor Siu-->
+<html lang="en">
+    <head>
+        <meta charset= "utf-8">
+        <link rel="stylesheet" href="cssStyle.css">
+    </head>
+    <body>
+        <section id="Hero">
+            <!-- Slideshow container -->
+            <div class = "slideshow-container">
+                <!-- First slide -->
+                <div class="slides fade">
+                    <img src="Images/Image 1/Image 1.png" style="width: 100%;">
+                </div>
+                <!-- Second slide -->
+                <div class="slides fade">
+                    <img src="Images/Image 2/Image 2.png" style="width: 100%;">
+                </div>
+                
+                <!-- Third slide -->
+                <div class="slides fade">
+                    <img src="Images/Image 3/Image 3.png" style="width: 100%;">
+                </div>
+            
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div style="text-align:center">
+                    <!--Dot for change image, currentSlide is the function in JavaScript-->
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+
+                <a href="Pricing.html" class="btn-mix-noborder">TRY IT NOW</a>
+            </div>
+        </section>
+        
+        <section id="Red">
+            <button class="button">
+                <a href="Pricing.html" class="btn-mix-noborder">
+                <span>TRY IT NOW</span>
+                </a>
+            </button>
+            
+            <audio id="playMusic">
+                <source src="music/MyDream.mp3" type="audio/mpeg">
+            </audio>
+
+            <img src="Images/medium17/medium17.png" id ="leftspeaker" class="speaker" onclick="playAudio()">
+            <img src="Images/medium27/medium27.png" id="rightspeaker" class="speaker" onclick="playAudio()">
+            
+            <h3 id="RedHeading">SUPERRIOR SOUND</h3>
+            <p id="RedSentence">Experince live versions of your favourite songs.</p>
+            
+            <button id="RedButton">
+                
+                <span>SEE DEMO</span>
+           
+            </button>
+        </section>
+
+
+        <section class="Yellow">
+            <button class="button">
+                <span>TRY IT NOW</span>
+            </button>
+            <div class="yellowSentence">
+                <h3>FRONT ROW SEATS</h3>
+                <p>Experince concerts up close and personal.</p>
+            </div>>
+            <button class="button">
+                <span>SEE DEMO</span>
+            </button>
+        </section>
+        <section id="Perks">
+            <h3>PERKS</h3>
+            <div>
+                <h5>Subscription Paymen Model</h5>
+                <p>No commitment, cancel anytime. Never worry about forgetting a payment again!</p> 
+            </div>
+            <div>
+                <h5>No Fee Cancelation Policy</h5>
+                <p>No commitment, cancel anytime. Never worry about forgetting a payment again!</p> 
+            </div>
+            <div>
+                <h5>Subscription Paymen Model</h5>
+                <p>No commitment, cancel anytime. Never worry about forgetting a payment again!</p> 
+            </div>
+        </section>
+        <section id="Reviews">
+            
+        </section>
+        <section id="GetEXP">
+            <div>
+                <h2>GET EXP|CON NOW</h2>
+                <h3>Purchase and download the app.</h3>
+            </div>
+            <div>
+                <button class="mixColorButton">
+                    <span>SEE DEMO</span>
+                </button>
+            </div>
+        </section>
+
+
+        <footer>
+            <p id="contractEmail">support@experienceconcerts.co</p>
+            <p id="footerExp">EXP|CON</p>
+            <P id="copyright">2019 &copy; All Rights Reserved | Speer Technonlogies Incorporated</P>
+        </footer>
+        <!--Running the an external JavaScript file
+        JavaScript file being external can
+            HTML files can share the same JavaScript file, effectively
+        -->
+        <script src="script.js"></script>
+    </body>
+
+</html>

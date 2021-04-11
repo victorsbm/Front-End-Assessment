@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- Bok-Man Victor Siu-->
+<html lang="en">
+    <head>
+        <meta charset= "utf-8">
+        <title>Payment</title>
+        <style>
+            body{
+                background-image: url('Images/Image 1/Image 1.png'); 
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+                color: white;
+            }
+            .chosenPlan{
+                width: 50%;
+            }
+            .billingInformation{
+                width: 45%;
+            }
+
+            .CreditCard{
+                width: 45%;
+            }
+            .InformationForm{
+                display: inline-flex;
+                width: 50%;
+                
+            }
+            
+            .listPlan{
+                display: inline-flex;
+                width: 45%;
+            }
+           
+            button{
+                background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+                border-radius: 79px;
+               
+                opacity: 1; 
+            }
+            button:focus {
+                background: rgb(219, 121, 219);
+                border-radius: 79px;
+                opacity: 1; 
+            }
+
+            input:focus {
+                background-color: rgb(219, 121, 219);
+            }
+        </style>
+        <link rel="stylesheet" href="cssStyle.css">
+        
+    </head>
+    <body>
+      
+
+        <h1>PAYMENT</h1>
+        <form>
+            <fieldset class="chosenPlan">
+                <legend>1. Select your plan</legend>
+                    <div class="listPlan">
+                        <div>
+                            <p>
+                                <input type="radio" name="plan" id="plan_1" value="basic">
+                                <label for="plan_1" style="color: rgb(228, 83, 83);">BASIC</label>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <input type="radio" name="plan" id="plan_2" value="advanced">
+                                <label for="plan_2" style="color: #FFB33F">ADVANCED</label>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <input type="radio" name="plan" id="plan_3" value="pro" style="color: #1FE1E9;">
+                                <label for="plan_3" style="color: #1FE1E9;">PRO</label>
+                                
+                            </p>
+                        </div>
+                    </div>
+            </fieldset>
+            <div class="InformationForm">
+                <fieldset class="billingInformation">
+                    <legend>2. Billing Information</legend> 
+                    <label for="full_name">FULL NAME</label><br>
+                    <input id="full_name" type="text" name="full_name"> 
+                    <br>
+                    <label for="billing_address">BILLING ADDRESS</label><br>
+                    <input id="billing_address" type="text" name="billing_address"> 
+                    <br>
+                    <label for="city">CITY</label><br>
+                    <input id="city" type="text" name="city"> 
+                    <br>
+                    <label for="postal_code">POSTAL CODE</label><br>
+                    <input id="postal_code" type="text" name="postal_code"> 
+                    <br>
+                    <label for="country">COUNTRY</label><br>
+                    <input id="country" type="text" name="country"> 
+                    <br>
+                </fieldset>
+                <fieldset class="CreditCard">
+                    <legend>3. Credit Card Information</legend>
+                    <label for="cardholder_name">CARDHOLDER'S NAME</label><br>
+                    <input id="cardholder_name" type="text" name="cardholder_name"> 
+                    <br>
+                    <label for="card_number">CARD NUMBER</label><br>
+                    <input id="card_number" type="text" name="card_number"> 
+                    <br>
+                    
+                    <label for="expiry_month">EXPIRY MONTH</label><br>
+                    <select id="expiry_month" name="expiry_month">
+                        <option value=""> </option>
+                        <option value="January">January</option>
+                        <option value="Febuary">Febuary</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+
+
+                    <br>
+                    <label for="expiry_year">EXPIRY YEAR</label><br>
+                    <select id="expiry_year" name="expiry_year">
+                        <option value=""> </option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                        <option value="2031">2031</option>
+                        <option value="2032">2032</option>
+                        <option value="2033">2033</option>
+                        <option value="2034">2034</option>
+                        <option value="2035">2035</option>
+                        <option value="2036">2036</option>
+                        <option value="2037">2037</option>
+                        <option value="2038">2038</option>
+                    </select><br>
+
+                    <label for="cvv">CVV</label><br>
+                    <input id="cvv" type="text" name="cvv"> 
+                </fieldset>
+            </div>
+            <p> By continuing, I acknowledge that I've read and agree to the <span style="color:#0026ff"> Terms of Service</span> & <span style="color:#0026ff">Privacy Policy</span>.</p>
+            <button type="submit" style="color: white">DOWNLOAD</button>
+        </form>
+        
+
+        <footer>
+            <p id="contractEmail">support@experienceconcerts.co</p>
+            <p id="footerExp">EXP|CON</p>
+            <P id="copyright">2019 &copy; All Rights Reserved | Speer Technonlogies Incorporated</P>
+        </footer>
+     
+       
+    </body>
+
+</html>

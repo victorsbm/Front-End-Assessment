@@ -1,0 +1,235 @@
+ul {
+  list-style-type:circle;
+}
+
+#leftspeaker{
+  top: 239px;
+  left: 1187px;
+  width: 254px;
+  height: 397px;
+  box-shadow: 5px 40px 30px #9B2525;
+  opacity: 1;
+}
+
+#rightspeaker{
+  top: 456px;
+  left: 1509px;
+  width: 254px;
+  height: 397px;
+  box-shadow: 5px 40px 30px #9B2525;
+  opacity: 1;
+}
+
+footer{
+  background-color: #5E33D1;
+}
+#contractEmail{
+
+  font: normal normal normal normal Helvetica Neue;
+  letter-spacing: 3.5px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+#footerExp{
+
+  text-align: center;
+  font: normal normal normal 48px/57px Helvetica Neue;
+  letter-spacing: 4.8px;
+  color: #FFFFFF;
+  opacity: 1;
+
+}
+#copyright{
+ 
+  text-align: center;
+  font: normal normal normal normal Helvetica Neue;
+  letter-spacing: 2.4px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+#Red{
+  background-color: rgb(228, 83, 83);
+
+}
+
+.Yellow{
+
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  background: #FFB33F 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.yellowSentence{
+  top: -142px;
+  left: -84px;
+  width: 682px;
+  height: 682px;
+  background-color: #0B0B0B 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  font: white;
+  opacity: 1;
+}
+
+.Perks{
+
+  background-color: rgb(43, 42, 42);
+}
+
+
+.Reviews{
+
+  background-color:  rgb(46, 221, 252);
+}
+
+.GetEXP{
+
+  background-color: rgb(43, 42, 42);
+}
+
+
+
+.slides {display: none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+#RedHeading{
+  top: 431px;
+  left: 184px;
+  width: 773px;
+  height: 88px;
+  text-align: left;
+  font: normal normal bold 74px/90px Helvetica Neue;
+  letter-spacing: 7.4px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+#RedSentence{
+  top: 546px;
+  left: 184px;
+  width: 879px;
+  height: 121px;
+  text-align: left;
+  font: normal normal normal 51px/61px Helvetica Neue;
+  letter-spacing: 5.1px;
+  color: #0B0B0B;
+  opacity: 1;
+}
+
+#RedButton{
+  top: 708px;
+  left: 184px;
+  width: 338px;
+  height: 81px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 79px;
+  opacity: 1;
+}
+
+/* The dots */
+.dot {
+ 
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.mixColorButton{
+  background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+  border-radius: 79px;
+  opacity: 1;
+}
+
+
+
+
+
+
+.btn-mix-noborder{
+  content: "";
+  position: absolute;
+  outline: 0;
+  border-radius: 50px;
+  font-size: 0.8em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+
+
+  top: 633px;
+  left: 774px;
+  width: 284px;
+  height: 79px;
+  background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+  border-radius: 79px;
+  opacity: 1;
+  box-shadow: 0 1em 2em 3em rgba(255, 50, 0, 0.5),
+      4em 0em 2em 2em rgba(155, 50, 0, 0.6),
+      -4em -2em 2em 2em rgba(255, 0, 150, 0.5),
+      -4em 2em 2em 4em rgba(0, 0, 150, 0.5),
+      0 -3em 2em 3em rgba(120, 250, 0, 0.5),
+      2em -1em 2em 2em rgba(50, 10, 200, 0.5);
+    width: 0;
+    height: 0;
+    animation: mix 5s linear infinite;
+  
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+
+}
+
+
