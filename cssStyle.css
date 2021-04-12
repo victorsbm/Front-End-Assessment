@@ -1,24 +1,6 @@
-ul {
-  list-style-type:circle;
-}
 
-#leftspeaker{
-  top: 239px;
-  left: 1187px;
-  width: 254px;
-  height: 397px;
-  box-shadow: 5px 40px 30px #9B2525;
-  opacity: 1;
-}
 
-#rightspeaker{
-  top: 456px;
-  left: 1509px;
-  width: 254px;
-  height: 397px;
-  box-shadow: 5px 40px 30px #9B2525;
-  opacity: 1;
-}
+
 
 footer{
   background-color: #5E33D1;
